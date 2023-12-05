@@ -14,6 +14,7 @@ module.exports = [
       },
     },
   },
+  'strapi::poweredBy',
   {
     name: 'strapi::cors',
     config: {
@@ -22,7 +23,6 @@ module.exports = [
       origin: ['http://localhost:1337', 'https://strapi-production-c21a.up.railway.app']
     }
   },
-  'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
   'strapi::body',
